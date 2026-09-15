@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
-    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
+    Name: 'Protocolos de servicio al cliente',
+    Description:
+      'Se debe planificar de forma integral lo que se va a ofrecer durante el proceso de venta y una herramienta eficaz para garantizarlo es la aplicación del protocolo con visión incluyente. Todos los funcionarios de atención al cliente deben estar en constante capacitación para garantizar que la experiencia que él viva certifique la calidad del producto o servicio recibido.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -30,41 +35,104 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        numero: '1',
-        titulo: 'Tema 1',
         desarrolloContenidos: true,
+        numero: '1',
+        titulo: 'Recursos tecnológicos para atender al cliente ',
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Tipos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Características',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Manejo',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo:
+          'Normatividad de seguridad de la información para contactar al cliente',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Portafolio de servicios',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Elementos',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Características',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'La comunicación con el cliente',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Características, tipos y elementos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Jerarquización',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Técnicas de comunicación oral, escrita y corporal',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Técnicas de comunicación efectiva y asertiva',
+            hash: 't_4_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo:
+          'Etiqueta y protocolo en la atención al cliente, reglas y normas',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Relaciones interpersonales',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Tipos',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Factores',
+            hash: 't_6_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -93,7 +161,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA2_135333_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -109,14 +177,132 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Canal de comunicación',
+      significado:
+        'medio físico a través del cual se puede comunicar, sirve para el intercambio de información entre el emisor y el receptor ya sea oral, escrito, lenguaje de señas, etc.',
+    },
+    {
+      termino: 'Comunicación',
+      significado:
+        'acción consciente de intercambio entre dos o más personas para recibir o trasmitir información.',
+    },
+    {
+      termino: 'Etiqueta',
+      significado:
+        'norma de conducta que cumple expectativas en el comportamiento social, gana importancia en los eventos públicos y privados que requieran de ceremonia.',
+    },
+    {
+      termino: 'Jerarquización',
+      significado:
+        'estructura que establece orden, refiere ordenar algo según la jerarquía de niveles, grados, importancia, etc.',
+    },
+    {
+      termino: 'Normatividad',
+      significado:
+        'conjunto de leyes o reglamentos que contienen las conductas y procedimientos que deben cumplir las personas en instituciones, empresas, países, etc. ',
+    },
+    {
+      termino: 'Portafolio de productos y servicios',
+      significado:
+        'recopilación de productos y servicios ofrecidos por las empresas, es una herramienta fundamental para las ventas.',
+    },
+    {
+      termino: 'Protocolo',
+      significado:
+        'sistema de reglas que establecen la estandarización tanto de la comunicación como de procesos que se llevan a cabo en una empresa.',
+    },
+    {
+      termino: 'Recursos tecnológicos',
+      significado:
+        'medio que se vale de la tecnología para cumplir el propósito para el cual se hizo, puede ser una computadora, un teléfono móvil, una máquina, etc.',
+    },
+    {
+      termino: 'Relaciones interpersonales',
+      significado:
+        'interacción entre dos o más personas, se trata de relaciones sociales donde se dan sentimientos, emociones como por ejemplo el amor, los gustos, los intereses, etc.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Arismendy, A. (2013). ¿Cómo vender?, manual de ventas y atención al cliente. A. Arismendy.',
+      link: '',
+    },
+    {
+      referencia: 'Barbera, G. E. (2013). El estilo e-portafolio. UOC.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cajal, F., A. (2020). Portafolio de servicios: tipos, partes y ejemplos. Lifeder.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cámara de Comercio de Medellín. (s. f.). Protocolo de atención a personas en situación de discapacidad.',
+      link:
+        'https://www.camaramedellin.com.co/Portals/0/Documentos/Transparencia/accesibilidad/Protocolo_atencion_personas_discapacidad_movilidad_reducida_y_orden_preferencial.pdf',
+    },
+    {
+      referencia:
+        'Carrera, F., Jiménez, G., A., y Viera, L., L. (2019). Técnicas de comunicación. IC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Fernández, A. M. (2021). Definición de relaciones interpersonales. Tipos, instancias y rasgos.Definicion.com.',
+      link: 'Https://definicion.com/relaciones-interpersonales/',
+    },
+    {
+      referencia: 'Funiber.org. (2017). Beneficios, tecnología y empresas.',
+      link: 'https://blogs.funiber.org/direccion-empresarial',
+    },
+    {
+      referencia:
+        'IMF-formación.com. (2019). Atención al cliente medios tecnológicos. Blog marketing.',
+      link:
+        'https://blogs.imf-formacion.com/blog/marketing/atencion-al-cliente-medios-tecnologicos/',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Ciberseguridad. (2020). Cómo proteger la información de los clientes.',
+      link:
+        'https://www.incibe.es/protege-tu-empresa/blog/proteger-informacion-personal-los-clientes-empresa',
+    },
+    {
+      referencia: 'Julia, M. U. (2020). Características de la comunicación.',
+      link: 'https://www.caracteristicas.co/comunicacion',
+    },
+    {
+      referencia:
+        'Mateos, M. Á. (2012). Atención básica al cliente. IC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Models, Inc., & Communication. (2011). Shannon and weaver model of communication. Communication theory.',
+      link:
+        'https://www.communicationtheory.org/shannon-and-weaver-model-of-communication/',
+    },
+    {
+      referencia:
+        'Novella, R., Repetto, A., Robino, C., & Rucci, G. (2018). Millennials en América Latina y el Caribe: ¿trabajar o estudiar? (resumen ejecutivo). Interamerican Development Bank.',
+      link: 'https://doi.org/10.18235/0001411',
+    },
+    {
+      referencia:
+        'Oliveras, R., I. (2009). El cliente y la calidad en el servicio. Editorial Trillas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pérez, R., W. (2021). El protocolo en la atención al cliente.',
+      link:
+        'https://www.protocolo.org/social/etiqueta-social/el-protocolo-en-la-atencion-al-cliente.html',
+    },
+    {
+      referencia: 'Tiposde.com. (2017). Tipos de relaciones interpersonales.',
+      link: '',
     },
   ],
   creditos: [
@@ -126,8 +312,8 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre ',
@@ -140,19 +326,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Esperanza Cardona Grisales',
+          cargo: 'Experta temática',
+          centro: 'Centro de Comercio y Servicios Regional - Cauca',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Alex García',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor metodológico',
+          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
         },
       ],
     },
@@ -160,24 +358,78 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Carmen Alicia Martínez Torres ',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Fabio Fonseca Arguelles ',
+          cargo: 'Desarrollador full stack ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Alexander Rafael Acosta Bedoya',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Nelson Iván Vera Briceño ',
+          cargo: 'Animador y productor audiovisual ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Zuleidy María Ruíz Torres ',
+          cargo: 'Producción audiovisual ',
+          centro: 'Centro de Comercio y Servicios -Regional Tolima',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey ',
+          cargo: 'Locución ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Oleg Litvin ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Yicelly Estefania Mesa Silva ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ludwyng Corzo García ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carlos Andrés Díaz Pinto ',
+          cargo: 'Desarrollo Front-end ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Yuli Marcela Gómez Tarazona ',
+          cargo: 'Validación de diseño y contenido ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
       ],
     },
@@ -196,12 +448,12 @@ export default {
         },
         {
           nombre: 'Jonathan Adié Villafañe',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
