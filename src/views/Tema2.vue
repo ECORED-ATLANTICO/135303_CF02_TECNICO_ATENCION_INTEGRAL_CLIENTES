@@ -20,10 +20,13 @@
     p.mb-3.z-2 La norma ISO 27002 se debe implementar elaborando y manteniendo un inventario de activos de información, donde se muestren los propietarios de los activos con todos sus detalles, se debe utilizar un código de barras que facilite las tareas para la realización de los inventarios y vincular los equipos de tecnología de la información TI, que ingresan y salen de las instalaciones y los empleados responsables de ellos.
     p.mb-5.z-2 Para comprender más este tema, en el siguiente video se ofrecen los elementos generales de la seguridad de la información digital o ciberseguridad.
 
+    .titulo-sexto.color-acento-contenido.mb-4
+      h5 Video 4.
+      span Ciberseguridad
+
     figure.mb-5.z-2
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/5M3bkF9qK5Y" title="Ciberseguridad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption #[strong Video]: ciberseguridad
 
     .row.justify-content-center.mb-4.mb-lg-5.z-2
       .col-xl-10
@@ -36,7 +39,7 @@
           span Prácticas para la protección de datos
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/2-mob.svg", alt="Ilustración de un escudo dividido en cuatro secciones con el título central “Medios electrónicos certificados”. Alrededor se presentan cuatro medidas de seguridad de la información: backup en la nube, copia de seguridad, carpetas con contraseñas y centralización de la información, cada una representada con iconos relacionados con servidores, bases de datos y protección digital.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/2.svg", alt="Ilustración de un escudo dividido en cuatro secciones con el título central “Medios electrónicos certificados”. Alrededor se presentan cuatro medidas de seguridad de la información: backup en la nube, copia de seguridad, carpetas con contraseñas y centralización de la información, cada una representada con iconos relacionados con servidores, bases de datos y protección digital.")
-        figcaption #[strong Nota.] SENA, 2026.
+
 
     p.mb-4.mb-lg-5 A continuación, se desarrolla cada una de las prácticas que garantizan la protección de los datos de los clientes:
 
@@ -97,7 +100,7 @@
           span Ciberataques en Colombia
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/8-mob.svg", alt="Infografía sobre el panorama de ciberataques en Colombia 2024–2025 que muestra estadísticas y modalidades más usadas. Indica que en 2024 hubo 36.000 millones de intentos de ciberataque y 77.666 denuncias por delitos informáticos, mientras que en el segundo semestre de 2025 se detectaron 7.100 millones de intentos. Destaca el hurto por medios informáticos como la modalidad más común, el phishing con inteligencia artificial y el uso de deepfakes, además de señalar que las entidades más suplantadas son la DIAN, la Fiscalía General de la Nación y la Policía Nacional.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/8.svg", alt="Infografía sobre el panorama de ciberataques en Colombia 2024–2025 que muestra estadísticas y modalidades más usadas. Indica que en 2024 hubo 36.000 millones de intentos de ciberataque y 77.666 denuncias por delitos informáticos, mientras que en el segundo semestre de 2025 se detectaron 7.100 millones de intentos. Destaca el hurto por medios informáticos como la modalidad más común, el phishing con inteligencia artificial y el uso de deepfakes, además de señalar que las entidades más suplantadas son la DIAN, la Fiscalía General de la Nación y la Policía Nacional.")
-        figcaption #[strong Nota.] SENA, 2026.
+
 
     .row.justify-content-center
       .col-xl-10

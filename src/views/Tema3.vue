@@ -40,63 +40,63 @@
                 th Ítems
             tbody
               tr
-                td #[strong Información muy detallada de la empresa.]
+                td #[strong Información muy detallada de la empresa]
                 td Debe aparecer no solo su historia, sino también sus principales clientes y proveedores, esto le ofrece confianza al cliente.
                 td 
                   ul.lista-ul
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Historia de la empresa.
+                      | Historia de la empresa
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Antecedentes.
+                      | Antecedentes
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Fecha de creación.
+                      | Fecha de creación
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Tiempo en el mercado.
+                      | Tiempo en el mercado
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Socios.
+                      | Socios
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Clientes.
+                      | Clientes
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Misión.
+                      | Misión
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Visión.
+                      | Visión
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Objetivos.
+                      | Objetivos
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Propuesta de valor.
+                      | Propuesta de valor
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Valores organizacionales.
+                      | Valores organizacionales
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Estructura de la empresa.
+                      | Estructura de la empresa
               tr
-                td #[strong Información del producto.]
+                td #[strong Información del producto]
                 td Debe especificar sus componentes y principales características, también los precios y ofertas por compra.
                 td 
                   ul.lista-ul
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Clasificación de los productos o servicios.
+                      | Clasificación de los productos o servicios
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Producto o servicio específico.
+                      | Producto o servicio específico
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | La marca de los productos o servicios.
+                      | La marca de los productos o servicios
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Nombre del producto o servicio.
+                      | Nombre del producto o servicio
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
                       | Características del producto o servicio: tamaño, forma, color, etc.
@@ -110,75 +110,75 @@
                       i.fas.fa-check-circle.text-primario
                       | Amplitud, extensión y presentación de la línea del producto: número de líneas, cantidad de productos que integran el portafolio, versiones del producto, etc.
               tr
-                td #[strong Información de la negociación.]
+                td #[strong Información de la negociación]
                 td Se debe especificar las formas de pago y los tiempos de pago en el evento que se venda a crédito y al por mayor.
                 td 
                   ul.lista-ul
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Valor de los productos.
+                      | Valor de los productos
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Valor de los servicios.
+                      | Valor de los servicios
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Valor por unidad.
+                      | Valor por unidad
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Valor al por mayor (docenas).
+                      | Valor al por mayor (docenas)
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Descuentos por pronto pago.
+                      | Descuentos por pronto pago
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Días de descuentos.
+                      | Días de descuentos
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Ofertas especiales.
+                      | Ofertas especiales
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Formas de pago: efectivo, tarjetas débito o crédito.
+                      | Formas de pago: efectivo, tarjetas débito o crédito
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
                       | Recaudo electrónico: diferentes canales como Efecty, Nequi, Daviplata, etc.
               tr
-                td #[strong Información de contacto.]
+                td #[strong Información de contacto]
                 td Se debe especificar todas las formas por las cuales se puedan comunicar los clientes.
                 td 
                   ul.lista-ul
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      span Página web.
+                      span Página web
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Correo electrónico.
+                      | Correo electrónico
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | #[em Blog].
+                      | #[em Blog]
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Teléfonos fijos.
+                      | Teléfonos fijos
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Teléfonos celulares.
+                      | Teléfonos celulares
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | WhatsApp.
+                      | WhatsApp
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
                       | Instagram
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Twitter.
+                      | Twitter
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      span <em>Call Center</em> (centro de llamadas).
+                      span <em>Call Center</em> (centro de llamadas)
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Fax.
+                      | Fax
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Ubicación o dirección de la empresa y sucursales si las tiene. 
+                      | Ubicación o dirección de la empresa y sucursales si las tiene 
     
     Separador
 

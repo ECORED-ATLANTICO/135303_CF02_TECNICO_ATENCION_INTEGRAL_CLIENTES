@@ -460,21 +460,21 @@
                 th Estrategia
             tbody
               tr
-                td Comunicación efectiva oral.
+                td Comunicación efectiva oral
                 td 
                   ul.lista-ul
                     li.d-flex 
                       i.far.fa-dot-circle.text-secundario-variante
-                      | Cuidar las palabras.
+                      | Cuidar las palabras
                     li.d-flex 
                       i.far.fa-dot-circle.text-secundario-variante
-                      | Cuidar el tono y volumen de voz.
+                      | Cuidar el tono y volumen de voz
                     li.d-flex 
                       i.far.fa-dot-circle.text-secundario-variante
-                      | Ofrecer una comunicación constructiva.
+                      | Ofrecer una comunicación constructiva
                     li.d-flex 
                       i.far.fa-dot-circle.text-secundario-variante
-                      | Manejar un nivel emocional adecuado.
+                      | Manejar un nivel emocional adecuado
                 td 
                   ul.lista-ul
                     li.d-flex 
@@ -490,18 +490,18 @@
                       i.fas.fa-check-circle.text-primario
                       | Se deben controlar adecuadamente las emociones, sentimientos y pensamientos que se generen durante la conversación para no perder el objetivo principal del diálogo.
               tr
-                td Comunicación efectiva no verbal.
+                td Comunicación efectiva no verbal
                 td 
                   ul.lista-ul
                     li.d-flex 
                       i.far.fa-dot-circle.text-secundario-variante
-                      | Utilizar lenguaje corporal.
+                      | Utilizar lenguaje corporal
                     li.d-flex 
                       i.far.fa-dot-circle.text-secundario-variante
-                      | Mantener contacto visual.
+                      | Mantener contacto visual
                     li.d-flex 
                       i.far.fa-dot-circle.text-secundario-variante
-                      | Cuidar los gestos de la cara.
+                      | Cuidar los gestos de la cara
                 td 
                   ul.lista-ul
                     li.d-flex 
@@ -577,20 +577,27 @@
       .col-xl-10
         h4(data-aos='zoom-in-right').mb-4
           span.etiqueta-title Comunicación asertiva
+
+    .titulo-sexto.color-acento-contenido.mb-4
+      h5 Video 5.
+      span Comunicación asertiva
+
     figure.mb-5
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/EHr4wRLbe64" title="Comunicación asertiva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption #[strong Video]: comunicación asertiva
+
 
     .row.justify-content-center
       .col-xl-10
         h4(data-aos='zoom-in-right').mb-4
           span.etiqueta-title Criterios de comunicación asertiva
 
+    p #[strong Video 6]. Criterios de comunicación asertiva
+
     figure.mb-5
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/OMd5P7X08G0" title="Criterios de comunicación asertiva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption #[strong Video]: criterios de comunicación asertiva
+  
    
 
 </template>

@@ -161,7 +161,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA2_135333_DU.pdf',
+        download: 'downloads/135303_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -254,22 +254,6 @@ export default {
       link: 'Https://definicion.com/relaciones-interpersonales/',
     },
     {
-      referencia: 'Funiber.org. (2017). Beneficios, tecnología y empresas.',
-      link: 'https://blogs.funiber.org/direccion-empresarial',
-    },
-    {
-      referencia:
-        'IMF-formación.com. (2019). Atención al cliente medios tecnológicos. Blog marketing.',
-      link:
-        'https://blogs.imf-formacion.com/blog/marketing/atencion-al-cliente-medios-tecnologicos/',
-    },
-    {
-      referencia:
-        'Instituto Nacional de Ciberseguridad. (2020). Cómo proteger la información de los clientes.',
-      link:
-        'https://www.incibe.es/protege-tu-empresa/blog/proteger-informacion-personal-los-clientes-empresa',
-    },
-    {
       referencia: 'Julia, M. U. (2020). Características de la comunicación.',
       link: 'https://www.caracteristicas.co/comunicacion',
     },
@@ -312,7 +296,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -344,7 +328,7 @@ export default {
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesor metodológico',
+          cargo: 'Asesora metodológica',
           centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
         },
         {
@@ -359,7 +343,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres ',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñadora web',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
@@ -438,12 +422,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -453,7 +437,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

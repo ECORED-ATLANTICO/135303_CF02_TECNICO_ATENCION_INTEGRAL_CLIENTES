@@ -40,9 +40,12 @@
 
     p.mb-4.mb-lg-5 Para ampliar la información sobre cada una de estas características, consulte el recurso educativo asociado a la comunicación del servicio al cliente.
 
+    .titulo-sexto.color-acento-contenido.mb-4
+      h5 Video 2.
+      span Características de un sistema eficaz de atención al cliente
+
     .video.mb-2
       iframe(width="560" height="315" src="https://www.youtube.com/embed/YasDqy5Vavk" title="Características de un sistema eficaz de atención al cliente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-    figcaption #[strong Video]: Características de un sistema eficaz de atención al cliente
 
     Separador
     
@@ -92,10 +95,13 @@
       .col-xl-10
         p.mb-0 El siguiente contenido presenta los tipos de canales utilizados por los clientes y sus principales características.
 
+    .titulo-sexto.color-acento-contenido.mb-4
+      h5 Video 3.
+      span Canales utilizados por los clientes
+
     figure
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/dDR-_jNxToE" title="Canales utilizados por los clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption #[strong Video]: canales utilizados por los clientes
 
     Separador
 
