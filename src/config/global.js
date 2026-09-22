@@ -254,6 +254,20 @@ export default {
       link: 'Https://definicion.com/relaciones-interpersonales/',
     },
     {
+      referencia: 'Funiber.org. (2017). Beneficios, tecnología y empresas.',
+      link: '',
+    },
+    {
+      referencia:
+        'IMF-formación.com. (2019). Atención al cliente medios tecnológicos. Blog marketing. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Ciberseguridad. (2020). Cómo proteger la información de los clientes. ',
+      link: '',
+    },
+    {
       referencia: 'Julia, M. U. (2020). Características de la comunicación.',
       link: 'https://www.caracteristicas.co/comunicacion',
     },
